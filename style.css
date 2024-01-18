@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:#CDDEE5;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+}
+
+#taskInput {
+    width: 32%;
+    padding: 18px;
+    margin-right: 5px;
+    margin-left: 500px;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#addTaskBtn {
+    
+    padding: 8px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    background-color: rgb(43, 32, 32);
+}
+
+li {
+    
+    width:460px;
+
+    margin: 10px 0;
+    margin-left: 500px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.task-text {
+    color:white;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.complete-btn, .delete-task-btn {
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.complete-btn {
+    background-color: #3498db;
+    color: white;
+    margin-right: 5px;
+}
+
+.delete-task-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.completed {
+    
+   
+     text-decoration: line-through;
+    
+}
+
+
+/* Add this CSS to your existing style.css file or create a new one */
+
+.filter {
+    text-align: center;
+    margin-top: 30px; /* Adjust as needed */
+
+    margin-right: 10px; /* Adjust as needed */
+}

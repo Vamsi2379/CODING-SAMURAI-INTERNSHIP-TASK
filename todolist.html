@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <div>
+        <input type="text" id="taskInput" placeholder="Enter your task">
+        <button id="addTaskBtn" onclick="addTask()">Add Task</button>
+    </div>
+    <div class="filter">
+        <label for="filterStatus">Filter by Status:</label>
+        <select id="filterStatus" onchange="filterTasks()">
+            <option value="all">All</option>
+            <option value="pending">Pending</option>
+            <option value="completed">Completed</option>
+        </select>
+
+        <label for="sortOption">Sort by:</label>
+        <select id="sortOption" onchange="sortTasks()">
+            <option value="none">None</option>
+            <option value="priority">Priority</option>
+            <option value="dueDate">Due Date</option>
+        </select>
+    </div>
+    <ul id="taskList"></ul>
+
+   
+    
+</body>
+</html>
